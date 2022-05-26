@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 64px;
+}
+
+ul li {
+    display: inline;
+    margin: 8px
+}
+
+body {
+    flex-direction: column;
+    background-color: #243119;
+    display: flex;
+    margin: 0 128px;
+}
+
+h1 {
+    color: white;
+}
+
+.content1 {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-between;
+}
+
+.content1 p {
+    color: beige;
+}
+
+.placeholder-image {
+    display: flex;
+    align-items: center;
+    border: 16px Double red;
+    margin: 24px;
+    margin-right: 0;
+    padding: 8px;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+
+/* URL formatting */
+a:link, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+a:hover {
+    color: red;
+}
